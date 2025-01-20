@@ -43,3 +43,46 @@ Lataa Debian ISO:
 Lataa debian-live-12.6.0-amd64-xfce.iso osoitteesta cdimage.debian.org.
 Asenna VirtualBox:
 Jos käytät Windowsia tai macOS:ää, lataa VirtualBox ja suorita asennus.
+
+
+## Virtuaalikoneen luominen
+![kuva1](kuva1.png)
+Avaa VirtualBox ja valitse Uusi kone. Käytä Asiantuntijatila:
+
+Nimi: Debian
+Tyyppi: Linux
+Versio: Debian (64-bit)
+Muisti: 4000 MB (tai enemmän)
+Virtuaalilevy: Luo uusi levy, 60 GB (dynaaminen allokaatio).
+Lisää ISO-tiedosto virtuaalikoneeseen:
+
+Valitse virtuaalikoneen asetuksista Tallennus ja liitä ISO-tiedosto virtuaaliseen CD-ROM-asemaan.
+![kuva2](kuva2.png) 
+
+## Asennusprosessi
+Käynnistä virtuaalikone ja valitse Live Desktop.
+
+Paina työpöydän alakulmassa olevaa Install Debian -painiketta.
+
+Seuraa ohjattua asennusta:
+
+Kieli: Valitse kieli.
+Aikavyöhyke: Määritä sijaintisi.
+Näppäimistö: Valitse näppäimistömalli.
+Osiointi: Valitse Tyhjennä levy ja asenna Debian (virtuaalilevy tyhjennetään automaattisesti).
+Käyttäjätiedot: Luo käyttäjänimi ja salasana.
+Tarkista asetukset ja aloita asennus.
+Odota asennuksen valmistumista (~10 minuuttia).
+
+![kuva3](kuva3.png) 
+![kuva4](kuva4.png)
+![kuva5](kuva5.png) 
+![kuva6](kuva6.png) 
+![kuva8](kuva8.png)
+![kuva9](kuva9.png) 
+![kuva10](kuva10.png) 
+![kuva11](kuva11.png) 
+![kuva12](kuva12.png) 
+
+## Lähteet
+"Pohjana Tero Karvinen 2021: https://terokarvinen.com/2021/install-debian-on-virtualbox/"
