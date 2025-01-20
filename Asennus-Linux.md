@@ -37,3 +37,9 @@ Muita huomioita: Vapaan ohjelmiston käsitettä sovelletaan myös muihin käytä
 "Avoin lähdekoodi" eroaa vapaista ohjelmistoista ideologisesti ja käytännöllisesti.
 
 # Linuxin asennus
+
+## Tarvittavat työkalut
+Lataa Debian ISO:
+Lataa debian-live-12.6.0-amd64-xfce.iso osoitteesta cdimage.debian.org.
+Asenna VirtualBox:
+Jos käytät Windowsia tai macOS:ää, lataa VirtualBox ja suorita asennus.
